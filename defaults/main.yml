@@ -99,9 +99,8 @@ Keyboard_Enabled: false                            # Enable Keyboard configurati
 # Keyboard_PowerButtonSleepsSystem: false            # Prevent accidental Power button presses from sleeping system
 # Keyboard_PressAndHoldEnabled: false                # Disable press-and-hold for keys in favor of key repeat
 
-LanguageRegion_Enabled: false                    # Enable Language and Region configuration
-#TODO: https://github.com/ansible/ansible-modules-extras/issues/2610
-#LanguageRegion_Languages: [ "en", "fr" ]        # Preferred languages (in order of preference e.g. [ "en", "fr" ])
+LanguageRegion_Enabled: false                      # Enable Language and Region configuration
+# LanguageRegion_Languages: [ "en-US" ]            # Preferred languages (in order of preference)
 # LanguageRegion_Locale: "en_US@currency=USD"      # Locale and Currency (United States : en_US@currency=USD, Great Britian : en_GB@currency=EUR)
 # LanguageRegion_MeasurementUnits: "Inches"        # Measure Units (Inches, Centimeters)
 # LanguageRegion_Force24HourTime: "true"           # Force 12/24 hour time
